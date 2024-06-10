@@ -9,7 +9,7 @@
           <option value="dead">Dead</option>
           <option value="unknown">Unknown</option>
         </select>
-        <button @click="applyFilters">Применить</button>
+        <button @click="applyFilters">Apply</button>
       </div>
       <div>
         <button @click="prevPage" :disabled="currentPage === 1">Previous</button>
@@ -97,6 +97,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px; 
   }
   </style>
+  
   
